@@ -73,6 +73,7 @@ public class Main {
             Member member = em.find(Member.class, 150l);
             member.setName("AAAAA");
 
+
             //em.detach(member);
             //em.clear();
             em.close();
